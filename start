@@ -1,0 +1,7 @@
+#!/bin/zsh
+# Ugur Editor: builds the review page and opens it at http://localhost:8765
+cd "${0:A:h}"
+[[ -d web/node_modules ]] || (cd web && npm install)
+(cd web && npx vite build --logLevel error) || exit 1
+(sleep 1.5 && open http://localhost:8765) &
+cd backend && exec python3 -m uvicorn app:app --port 8765

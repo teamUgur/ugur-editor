@@ -1,0 +1,7 @@
+.claude/
+projects/
+web/node_modules/
+web/dist/
+__pycache__/
+.env
+.DS_Store
