@@ -1,5 +1,7 @@
 # Ugur Editor
 
+> **Status: stopped on 2026-11-16.** Ugur decided not to continue this project. The reason: anyone can get the same result by asking Claude Code to caption a video, so a separate tool adds little value. The code works as it is (import, captions, Jev keywords, review page, render) and stays here as a reference. Caption dragging and video cutting were started but not finished.
+
 Local auto-caption tool for Ugur's Reels. Drop a video on the page and it transcribes the speech, splits it into 1-2 word captions in the Reel 11 style, and marks a keyword in each phrase in serif italic. You review the captions and render an MP4.
 
 ## Run
